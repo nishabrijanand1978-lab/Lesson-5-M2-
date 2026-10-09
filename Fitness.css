@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(to bottom, #00C9FF, #182848);
+    font-family: Arial, sans-serif;
+}
+
+.heading {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 4px 3px #FF6B35;
+}
+
+.intro {
+    text-align: center;
+    width: 750px;
+    height: 50px;
+    background: #ffffff;
+    margin: 20px auto;
+    border: 3px dotted #00C9FF;
+    color: #182848;
+    padding: 20px;
+}
+
+.routine-card {
+    height: 510px;
+    width: 250px;
+    background: #F0F9FF;
+    border: 3px solid #FF6B35;
+    padding: 15px;
+    margin: 15px;
+    float: left;
+}
+
+.routine-card h2 {
+    color: #182848;
+    font-size: 30px;
+}
+
+.routine-card p {
+    color: #374151;
+    font-size: 15px;
+} 
+
+.clear {
+    clear: both;
+}
+
+.note {
+    height: 150px;
+    width: 650px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    border: 3px solid #A3E635;
+    Background: #182848;
+    animation: grow 1s alternate infinite;
+}
+
+@keyframes grow {
+    from {
+        height: 150px; width: 650px;
+    }
+    to {
+        height: 165px; width: 665px;
+    }
+}

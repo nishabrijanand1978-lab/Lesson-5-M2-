@@ -1,0 +1,45 @@
+body {
+    background-image: linear-gradient( to bottom , #1B4332, #40916C, #D8E8D0);
+}
+
+h1 {
+    text-align: center;
+    font-size: large;
+    color: #64c98b;
+    text-shadow: 3px 3px black;
+}
+
+.name {
+    text-align: center;
+    font-size: 50pxpx;
+    font-weight: bold;
+    font-family: Georgia, Times, serif;
+    color: #085b35;
+    text-decoration: underline;
+    text-shadow: 1px 1px black;
+}
+
+.box {
+    background-color: #FFF8DC;
+    color: #1f6b49;
+    width: 250px;
+    height: 400px;
+    padding: 20px;
+    border: 5px double #2D6A4F;
+}
+
+.details {
+    color: #40916C;
+}
+
+.fact {
+    color: #3D3D3D;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+    border: 15px solid #1B4332;
+}
